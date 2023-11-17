@@ -1,0 +1,289 @@
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo1 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 20px;
+  margin-top: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.search {
+  height: 30px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.sala {
+  height: 25px;
+  margin-bottom: 7px;
+  padding-right: 7px;
+  cursor: pointer;
+}
+
+.galb {
+  height: 30px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.bnadem {
+  height: 30px;
+  cursor: pointer;
+}
+
+.icons {
+  margin-top: 14px;
+}
+
+li {
+  position: relative;
+  padding-left: 20px;
+  color: black;
+}
+
+li > a:before {
+  position: absolute;
+  left: 0;
+  color: black;
+}
+
+li > a:hover,
+li > a:active {
+  color: #7c7c7c;
+}
+
+li > a:hover:before,
+li > a:active:before {
+  color: #7c7c7c;
+}
+
+.container1 {
+  display: flex;
+}
+
+.product-image img {
+  max-width: 100%;
+}
+
+.product-info h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 58px;
+  color: #111010;
+}
+
+#productPrice {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 45px;
+  color: #000000;
+}
+
+#productDescription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #616161;
+}
+
+.product-info {
+  margin-left: 20px;
+}
+
+.quantity {
+  display: flex;
+  margin-top: 15px;
+}
+
+#decreaseQty,
+#increaseQty,
+#quantity {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#totalPrice {
+    font-size: 20px;
+}
+
+#addToCart {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+#addToFavorites {
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+#collections {
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hh {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.collection-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.collection-item {
+  width: 22%;
+  margin: 10px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.collection-item img {
+  width: 100%;
+  height: auto;
+}
+
+.collection-info {
+  padding: 10px;
+  background-color: #fff; /* White background for the info box */
+}
+
+.collection-info > h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #111010;
+}
+
+.collection-info > p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(17, 16, 16, 0.5);
+}
+
+#collections {
+  margin-bottom: 100px;
+}
+
+.container > button {
+  margin-top: 20px;
+  background-color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+
+#product-details {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+section#contact {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+section#contact > div {
+  flex: 1;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.logo img {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.socials img {
+  margin-right: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+section#contact h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+section#contact p {
+  color: #b4b4b4;
+}
